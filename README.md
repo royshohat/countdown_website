@@ -40,4 +40,4 @@ A simple countdown timer web application where users can add events with specifi
 
 ## License
 This project is open-source and available under the MIT License. Feel free to use and modify it.
-"""
+
