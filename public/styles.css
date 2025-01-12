@@ -1,0 +1,137 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    color: #333;
+    font-size: 2.5em;
+  }
+  
+  /* Form styles */
+  .add-event {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .add-event h2 {
+    margin-top: 0;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    display: inline-block;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #0056b3;
+  }
+  
+  /* Event list styles */
+  
+  
+  .event-list h2 {
+    margin-top: 0;
+  }
+  
+  .event-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  /* Style the event-list container */
+/* Style the event-list container */
+/* Style the event-list container */
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Space between events */
+  padding: 16px;
+}
+
+/* Style individual event items */
+.event-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  text-align: center; /* Center align text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the deadline container */
+.deadline {
+  display: flex;
+  justify-content: center; /* Center align time units */
+  gap: 16px; /* Space between time units */
+  margin-top: 8px;
+}
+
+/* Style each time unit */
+.deadline-format {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align text within each unit */
+}
+
+.deadline-format h4 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.deadline-format span {
+  font-size: 14px;
+  color: #555;
+}
+  
+  .event-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .event-list li:last-child {
+    border-bottom: none;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+  }
